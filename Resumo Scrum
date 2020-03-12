@@ -1,0 +1,135 @@
+PROJETO - >  Esforço temporário que produz algo e é único.
+
+Tradicional -> Planejar todo o projeto, monitorar, executar (monitoramento de controle) e encerramento.
+O produto é disponibilizado somente no encerramento. (Deve ser feito quando o escopo do projeto não sofre mudanças - Ex: Construção de uma ponte).
+
+Ágil -> Dirigido por valores, geralmente ocorre diversas mudanças, Indivíduos e interações são mais importantes que burocrácias, ter a colaboração com o cliente
+e por fim entregar o que o cliente realmente precisa. Ir mostrando os resultado para o cliente, entregar valor para o cliente a cada DUAS SEMANAS.
+RESUMINDO: Ela é flexível, periódica a mudanças e entrega valor.
+
+SCRUM -> Framework simples para gerenciar projetos complexos(cliente não sabe realmente o que quer...).
+Temos 3 pilares fundamentais:
+	- Transparência.
+	- Inspeção.
+	- Adaptação.
+
+Projeto surge através de uma idéia.
+Construção de um sistema
+FLUXO:
+	- Visão(Objetivo, mapeamento, descrição).
+	- Backlog do Produto (Requisitos - UserHistory)
+	- Backlog da Sprint (Interação) - encontro com o cliente de 2 em 2 semanas. (Execução da Sprint) - DayliScrum (Reuniões diárias)
+	- Produto ou Incremento apresentado ao cliente, se aprovador volta (ao Sprint) até que o produto seja concluído e entregue ao cliente.
+
+PAPÉIS CENTRAIS
+	- Dono do Produto (Product Owner).
+		- REPRESENTA.
+		- Faz o papel de cliente diante da equipe Scrum.
+		- Representa as partes interessadas.
+		- Mantém o backlog atualizado.
+	- Scrum Master
+		- FACILITADOR (ESPECIALISTA).
+		- Remove impedimentos.
+		- Asseguta que a equipe está funcional e produtiva.
+		- Blida o time de interferências externas.
+	- Time Scrum
+		- São as pessoas que constroem o produdo.
+			- Programador, anaslista, tester, design.
+PAPÉIS NÃO CENTRAIS
+	- Usuários
+	- Parceiros
+	- Fornecedores
+
+PRINCÍPIOS
+	1. Controle de Processos Empíricos
+		- Transparência
+			- Comunicação aberta.
+			- Reuniões diárias.
+			- Quadro de tarefas.
+		- Inspeção
+			- Todo mundo pode observar o produto.
+			- Gráficos Públicos.
+		- Adaptação
+			- Ajustes em Processos.
+			- Solicitação de Mudanças.
+			- Identificação de Riscos.
+			- Atualização do Backlog.
+	2. Auto-Organização
+		- Pessoas compromissadas.
+		- Equipe com pessoas com um certo nível de independência.
+		- Entender a visão do Projeto.
+		- Entrega de resultados tangíveis (cliente valida as entregas).
+	3. Colaboração
+		- Consiência (que seu trabalho impacta no trabalho do outro).
+		- Articulação (Dividir o esforço a ser feito e unificar o resultado).
+		- Apropriação (Assumir trabalho de outras pessoas e vice-versa).
+	4. Priorização Baseada em Valor
+		- Entregar valor AO LONGO do Projeto.
+		- Entregar as partes do produto conforme prioridade definida pelo Product Owner.
+	5. Time-Boxing
+		- Tempo fixo para cada evento em um projeto Scrum (objetividade).
+		- Foco.
+		- Resultados.
+	6. Iterativo-Incremental
+		- Repetição (Sprint).
+
+VANTAGENS DO SCRUM
+	- Forte trabalho em equipe.
+	- Produtividade.
+	- Incremental.
+	
+Scrum de Scrums
+	- Várias equipes trabalhando em paralelo.
+		- Reunião do Scrum Master chefe com os Scrum Master.
+
+
+
+---->PRÁTICA<----
+FASE "INICIAR"
+	- Definindo a visão do projeto.
+	- Épica : Precisa ser uma história grande e dividir em pequenas partes. É considireda épica, quando não cabe em um Sprint (2 semanas)
+	- O Product Owner deve priorizar os backlog.
+	- Planejamento das entregas principais (RELEASE).
+		- Definir o que será entregue e quais datas irá ocorrer as entregas, porém nem toda Sprint terá uma Release. Na prática a maioria dos Sprint não tem Release.
+	- Objetivo
+		- Definir um objetivo (onde queremos chegar).
+			- Espercífico
+			- Mensurável
+			- Alcansável 
+			- Relevante/Realista
+			- Restrito de tempo		
+OBS: Backlog -> caixinha cheia de histórias do usuário.
+
+FASE "PLANEJAR E ESTIMAR"
+	- Fazer o refinamento do backlog com do Product Owner.
+	- Backlog da Sprint (Tudo que deve ser feito durante aquela Sprint)
+	- Dono do Produto deve definir a história.
+		Reunião do planejamento da Sprint
+			- A equipe verifica se vai conseguir atender a história. 	
+			- A equipe se compromete em entregar até o final da Sprint o que foi solicitado.
+			- Planning Poker:
+				Verificar o tempo que será levado para o desenvolvimento do projeto.
+		- Dividir as história em pequenas tarefas.
+
+FASE "IMPLEMENTAR"
+	- Fase para entregar o planejado.
+	- Passar por todas as etapas, fazer, testar, entregar.
+	- Reunião diárias
+		- É feita diariamente (Daily Scrum) e no início do expediente, pelo Scrum master e membros.
+		- Toda a equipe participa da reunião.
+		- Gráfico de Burndown é apresentado para a equipe para complementar a visão do andamento do projeto.
+	- Refinando o Backlog do Produto
+		- Pode receber novo item, se tiver na Sprint, retirar e colocar no backlog do produto.
+
+FASE "REVISÃO E RETROSPECTIVA"
+	- REVISÃO
+		- Revisão do que foi concluído, implementado ao longo da Sprint. Quem faz essa revisão é o Dono do Produto e se possível as principais partes interessadas.
+		- Mostrar propriamente o que foi feito, abrir o sistema e apresentar ao cliente para conferência.
+		- Se for reprovada a Sprint deve voltar para o Backlog do Produto, geralmente esse iten ficam para a próxima Sprint.
+	- RETROSPECTIVA
+		- Última reunião, pois acontece depois da revisão e antes da próxima Sprint.
+		- É a reunião de lições aprendidas. Feita apenas pela equipe Scrum.
+		- Traçar um plano, um caminho, para os erros não se repetir e o que está bom manter.
+	
+FASE "RELEASE"
+	- É uma liberação funcional, porém não é a final.
